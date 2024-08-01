@@ -13,7 +13,7 @@ const url = process.env.DB;
 
 app.use(
     cors({
-        origin: "http://localhost:3001"
+        origin: "https://task-mate-murex.vercel.app"
     })
 )
 
